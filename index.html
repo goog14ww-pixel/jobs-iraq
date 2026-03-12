@@ -169,4 +169,101 @@ margin-top:30px;
 </footer>
 
 </body>
+</html><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحميل الدستور العراقي</title>
+    <style>
+        :root {
+            --iraq-red: #ce1126;
+            --iraq-green: #007a3d;
+            --iraq-black: #000000;
+            --light-gray: #f4f4f9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-gray);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            border-top: 8px solid var(--iraq-red);
+        }
+
+        .flag-accent {
+            height: 5px;
+            width: 60px;
+            background-color: var(--iraq-green);
+            margin: 10px auto;
+            border-radius: 2px;
+        }
+
+        h1 {
+            color: var(--iraq-black);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--iraq-green);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.3s, background-color 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 122, 61, 0.3);
+        }
+
+        .download-btn:hover {
+            background-color: #005f2f;
+            transform: translateY(-3px);
+        }
+
+        .footer-text {
+            font-size: 0.8rem;
+            color: #aaa;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>جمهورية العراق</h1>
+        <div class="flag-accent"></div>
+        <h3>دستور عام 2005</h3>
+        <p>يمكنك الآن الحصول على النسخة الكاملة والمحدثة من الدستور العراقي بصيغة PDF.</p>
+        
+        <a href="constitution.pdf" download class="download-btn">
+            📥 تحميل الدستور الآن
+        </a>
+
+        <div class="footer-text">
+            خدمة مجانية - بوابة الوظائف والمعلومات
+        </div>
+    </div>
+
+</body>
 </html>
