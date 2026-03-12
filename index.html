@@ -7,7 +7,50 @@
 
 <style><!DOCTYPE html>
 <html>
-<head>
+<head><header>
+<div class="logo">وظائف العراق</div>
+
+<nav>
+<a href="#">الرئيسية</a>
+<a href="#">وظائف اليوم</a>
+<a href="#">وظائف حكومية</a>
+<a href="#">وظائف شركات</a>
+<a href="#">اتصل بنا</a>
+</nav>
+</header>header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#0a66c2;
+padding:15px 25px;
+}
+
+.logo{
+color:white;
+font-size:24px;
+font-weight:bold;
+animation:moveLogo 3s infinite alternate;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-size:16px;
+}
+
+nav a:hover{
+border-bottom:2px solid white;
+}
+
+@keyframes moveLogo{
+0%{
+transform:translateY(0);
+}
+100%{
+transform:translateY(-5px);
+}
+}
 
 <style>
 
